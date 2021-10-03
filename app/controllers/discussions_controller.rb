@@ -5,4 +5,11 @@ class DiscussionsController < ApplicationController
     @discussions = Discussion.all
   end
 
+  def new
+    @discussion = Discussion.new
+  end
+
+  def create
+  end
+
 end
