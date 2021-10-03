@@ -15,6 +15,9 @@
 
     <%= render 'shared/navigation' %>
 
-    <%= yield %>
+    <div class="container mt-4">
+      <%= render 'shared/flash' %>
+      <%= yield %>
+    </div>
   </body>
 </html>
